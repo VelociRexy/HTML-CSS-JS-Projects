@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color:#00bf26;
+}
+
+.container{
+  min-height:83vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#board{
+  background:linear-gradient( #ff9900,green);
+  height:100vmin;
+  width:94vmin;
+  border:2px solid black;
+  display:grid;
+  grid-template-columns:repeat(18,1fr);
+  grid-template-rows:repeat(18,1fr);
+} 
+
+#scoreCur{
+  height:2vh;
+}
+
+#buttons{
+  position: relative;
+  background-color:red;
+  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ArrowUp{
+  position: relative;
+  bottom:20px;
+  left:50px;
+}
+
+#ArrowDown{
+  position: relative;
+  top:20px;
+  right:60px;
+}
+
+.head{
+  background-color: black;
+  border-radius:6px;
+}
+
+.body{
+  background-color:blue;
+  border-radius:10px;
+}
+
+.food{
+  background-color: yellow;
+  border-radius:6px;
+}
